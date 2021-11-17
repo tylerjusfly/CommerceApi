@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -18,5 +18,8 @@
     "nodemon": "^2.0.14",
     "pug": "2.0.0-beta11",
     "sequelize": "^6.8.0"
+  },
+  "engines" : {
+    "node" : "14.18.0"
   }
 }
